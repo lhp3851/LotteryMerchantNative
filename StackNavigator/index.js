@@ -29,6 +29,7 @@ const StackNavigatorConfig = {
   initialRouteName: 'Home',
   initialRouteParams: {initPara: '初始页面参数'},
   navigationOptions: {
+    title: '标题',
     headerTitleStyle: {fontSize: 18, color: 'red'},
     headerStyle: {height: 49},
   },
